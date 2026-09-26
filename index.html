@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio pribadi Ferdian Arga Saputra - Junior Web Developer. Profil, keahlian, karya, dan pengalaman di bidang Rekayasa Perangkat Lunak.">
+  <meta name="author" content="Ferdian Arga Saputra">
+  <meta name="keywords" content="portfolio, web developer, junior web developer, rekayasa perangkat lunak, ferdian arga saputra">
+  <title>Ferdian Arga Saputra | Junior Web Developer</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon (placeholder) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>F</text></svg>">
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <span class="brand-name ms-2">Ferdian Arga Saputra</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tentang">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pendidikan">Pendidikan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pengalaman">Pengalaman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#keahlian">Keahlian</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sertifikat">Sertifikat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kegiatan">Kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#artikel">Artikel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO / BERANDA ========== -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <div class="hero-badge">
+            <i class="bi bi-code-slash"></i> Available for learning projects
+          </div>
+          <p class="hero-greeting">Halo, saya</p>
+          <h1 class="hero-name">Ferdian Arga <span>Saputra</span></h1>
+          <p class="hero-role">Junior Web Developer</p>
+          <p class="hero-desc">
+            Siswa Rekayasa Perangkat Lunak yang fokus membangun website yang bersih, fungsional, dan mudah digunakan. Saya terus belajar dan mengembangkan kemampuan di bidang web development.
+          </p>
+          <div class="hero-cta d-flex flex-wrap gap-3">
+            <a href="#kontak" class="btn btn-primary btn-lg">
+              <i class="bi bi-send me-2"></i>Hubungi Saya
+            </a>
+            <a href="#portfolio" class="btn btn-outline-primary btn-lg">
+              <i class="bi bi-folder2-open me-2"></i>Lihat Portfolio
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">5+</span>
+              <span class="hero-stat-label">Project</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">3+</span>
+              <span class="hero-stat-label">Teknologi</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">1+</span>
+              <span class="hero-stat-label">Tahun Belajar</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+          <div class="hero-image-wrapper">
+            <!-- Ganti src dengan foto profil Anda -->
+            <img src="assets/images/ftoo.jpeg" class="hero-image img-fluid">
+            <div class="hero-decoration"></div>
+            <div class="hero-decoration-2"></div>
+            <div class="hero-float-badge hero-float-1">
+              <i class="bi bi-laptop"></i> Web Developer
+            </div>
+            <div class="hero-float-badge hero-float-2">
+              <i class="bi bi-lightning-charge-fill"></i> Fast Learner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TENTANG SAYA ========== -->
+  <section id="tentang" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="section-subtitle">Kenali lebih dekat siapa saya</p>
+      </div>
+      <div class="row align-items-center g-4">
+        <div class="col-lg-5">
+          <div class="about-image-card">
+            <img src="assets/images/ftoo.jpeg" class="img-fluid rounded-3">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <h3 class="about-heading mb-3">Siswa RPL yang Tertarik pada Web Development</h3>
+          <p class="about-text mb-3">
+            Saya adalah siswa Rekayasa Perangkat Lunak yang memiliki ketertarikan kuat pada pengembangan website. Saya senang mengubah ide menjadi tampilan yang rapi, mudah dipahami, dan berfungsi dengan baik.
+          </p>
+          <p class="about-text mb-4">
+            Fokus saya saat ini adalah menguasai HTML, CSS, JavaScript, dan Bootstrap, serta terus belajar best practice dalam membangun antarmuka yang responsif dan ramah pengguna.
+          </p>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-person-fill text-primary"></i>
+                <div>
+                  <span class="info-label">Nama</span>
+                  <span class="info-value">Ferdian Arga Saputra</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-briefcase-fill text-primary"></i>
+                <div>
+                  <span class="info-label">Bidang</span>
+                  <span class="info-value">Rekayasa Perangkat Lunak</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-geo-alt-fill text-primary"></i>
+                <div>
+                  <span class="info-label">Lokasi</span>
+                  <span class="info-value">Ponorogo, Jawa Timur</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-envelope-fill text-primary"></i>
+                <div>
+                  <span class="info-label">Email</span>
+                  <span class="info-value">ferdianarga7@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROFIL PROFESIONAL ========== -->
+  <section id="profil" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Profil Profesional</h2>
+        <p class="section-subtitle">Ringkasan identitas profesional saya</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card profile-card border-0 shadow-sm">
+            <div class="card-body p-4 p-md-5">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="profile-item">
+                    <span class="profile-label">Nama Lengkap</span>
+                    <span class="profile-value">Ferdian Arga Saputra</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="profile-item">
+                    <span class="profile-label">Jabatan / Role</span>
+                    <span class="profile-value">Junior Web Developer</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="profile-item">
+                    <span class="profile-label">Bidang</span>
+                    <span class="profile-value">Rekayasa Perangkat Lunak</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="profile-item">
+                    <span class="profile-label">Spesialisasi</span>
+                    <span class="profile-value">Front-End Web Development</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="profile-item">
+                    <span class="profile-label">Status</span>
+                    <span class="profile-value">Siswa SMK / Pelajar</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="profile-item">
+                    <span class="profile-label">Lokasi</span>
+                    <span class="profile-value">Ponorogo, Jawa Timur</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="profile-item">
+                    <span class="profile-label">Fokus Pengembangan</span>
+                    <span class="profile-value">Membangun website responsif, bersih, dan mudah digunakan dengan HTML, CSS, JavaScript, dan Bootstrap</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PENDIDIKAN ========== -->
+  <section id="pendidikan" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Pendidikan</h2>
+        <p class="section-subtitle">Riwayat pendidikan saya</p>
+      </div>
+      <div class="timeline">
+        <!-- Item 1: Terbaru -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">[2024] – Sekarang</span>
+            <h4 class="timeline-title">SMKN 1 JENANGAN PONOROGO</h4>
+            <p class="timeline-subtitle">Rekayasa Perangkat Lunak</p>
+            <p class="timeline-desc">
+              Sedang menempuh pendidikan di jurusan Rekayasa Perangkat Lunak dengan fokus pada pengembangan aplikasi web dan perangkat lunak.
+            </p>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">[2021] – [2024]</span>
+            <h4 class="timeline-title">SMPN 5 PONOROGO</h4>
+            <p class="timeline-subtitle">Sekolah Menengah Pertama</p>
+            <p class="timeline-desc">
+              [Deskripsi singkat pengalaman di SMP, jika diperlukan]
+            </p>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">[2015] – [2021]</span>
+            <h4 class="timeline-title">SDN 2 KENITEN</h4>
+            <p class="timeline-subtitle">Sekolah Dasar</p>
+            <p class="timeline-desc">
+              [Deskripsi singkat, opsional]
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PENGALAMAN ========== -->
+  <section id="pengalaman" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Pengalaman</h2>
+        <p class="section-subtitle">Pengalaman belajar, project, dan kegiatan</p>
+      </div>
+      <div class="row g-4">
+        <!-- Pengalaman 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card experience-card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <span class="experience-period">[2026]</span>
+              <h4 class="experience-title mt-2">[Junior web development]</h4>
+              <p class="experience-place text-primary mb-3">Praktek Kerja Lapangan]</p>
+              <p class="experience-desc mb-3">
+                Membuat website kecil sebagai latihan, dan belajar mengenai layout dalam
+                sebuah pembuatan website
+              </p>
+              <div class="experience-skills">
+                <span class="skill-badge">HTML</span>
+                <span class="skill-badge">CSS</span>
+                <span class="skill-badge">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KEAHLIAN ========== -->
+  <section id="keahlian" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Keahlian</h2>
+        <p class="section-subtitle">Teknologi dan tools yang saya pelajari</p>
+      </div>
+      <div class="row g-4">
+        <!-- Programming -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card skill-card h-100 border-0 shadow-sm">
+            <div class="card-body p-4 text-center">
+              <div class="skill-icon mb-3">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h4 class="skill-category mb-3">Programming</h4>
+              <ul class="skill-list list-unstyled mb-0">
+                <li><i class="bi bi-check2 text-primary"></i> HTML</li>
+                <li><i class="bi bi-check2 text-primary"></i> CSS</li>
+                <li><i class="bi bi-check2 text-primary"></i> JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Web Development -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card skill-card h-100 border-0 shadow-sm">
+            <div class="card-body p-4 text-center">
+              <div class="skill-icon mb-3">
+                <i class="bi bi-window"></i>
+              </div>
+              <h4 class="skill-category mb-3">Web Development</h4>
+              <ul class="skill-list list-unstyled mb-0">
+                <li><i class="bi bi-check2 text-primary"></i> Bootstrap</li>
+                <li><i class="bi bi-check2 text-primary"></i> Responsive Design</li>
+                <li><i class="bi bi-check2 text-primary"></i> Semantic HTML</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Database -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card skill-card h-100 border-0 shadow-sm">
+            <div class="card-body p-4 text-center">
+              <div class="skill-icon mb-3">
+                <i class="bi bi-database"></i>
+              </div>
+              <h4 class="skill-category mb-3">Database</h4>
+              <ul class="skill-list list-unstyled mb-0">
+                <li><i class="bi bi-check2 text-primary"></i> MySQL</li>
+                <li><i class="bi bi-check2 text-primary"></i> PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card skill-card h-100 border-0 shadow-sm">
+            <div class="card-body p-4 text-center">
+              <div class="skill-icon mb-3">
+                <i class="bi bi-tools"></i>
+              </div>
+              <h4 class="skill-category mb-3">Tools</h4>
+              <ul class="skill-list list-unstyled mb-0">
+                <li><i class="bi bi-check2 text-primary"></i> VS Code</li>
+                <li><i class="bi bi-check2 text-primary"></i> Git / GitHub</li>
+                <li><i class="bi bi-check2 text-primary"></i> Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO / KARYA ========== -->
+  <section id="portfolio" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">Beberapa karya dan project yang pernah saya kerjakan</p>
+      </div>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card portfolio-card h-100 border-0 shadow-sm overflow-hidden">
+            <div class="portfolio-img-wrapper">
+              <img src="https://placehold.co/600x400/2563EB/FFFFFF?text=Website+Profil" alt="Thumbnail Website Profil Pribadi" class="card-img-top">
+            </div>
+            <div class="card-body p-4">
+              <span class="portfolio-category">Website</span>
+              <h4 class="portfolio-title mt-1">Website Profil Pribadi</h4>
+              <p class="portfolio-desc">
+                Website portfolio statis untuk menampilkan profil, keahlian, dan karya. Dibuat dengan HTML, CSS, dan Bootstrap.
+              </p>
+              <div class="portfolio-tech mb-3">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+              <a href="https://freezingfood.my.id" class="btn btn-sm btn-outline-primary">Lihat Project</a>
+              <!-- Link website usaha (placeholder) -->
+              <!-- Ganti URL ini dengan website usaha setelah website toko selesai dibuat -->
+              <a href="https://freezingfood.my.id" class="btn btn-sm btn-primary ms-1">Lihat Website Usaha</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERTIFIKAT / PRESTASI ========== -->
+  <section id="sertifikat" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Sertifikat & Prestasi</h2>
+        <p class="section-subtitle">Belum memiliki sertifikat</p>
+      </div>
+      <div class="row g-4">
+
+  <!-- ========== KEGIATAN ========== -->
+  <section id="kegiatan" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Kegiatan</h2>
+        <p class="section-subtitle">Kegiatan belajar, workshop, dan dokumentasi</p>
+      </div>
+      <div class="row g-4">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ARTIKEL / BLOG ========== -->
+  <section id="artikel" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Artikel & Blog</h2>
+        <p class="section-subtitle">Beberapa tulisan seputar web development</p>
+      </div>
+      <div class="row g-4">
+        <!-- Artikel 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card article-card h-100 border-0 shadow-sm overflow-hidden">
+            <img src="https://placehold.co/600x350/2563EB/FFFFFF?text=HTML+%26+CSS" alt="Thumbnail artikel HTML dan CSS" class="card-img-top">
+            <div class="card-body p-4">
+              <span class="article-category">Belajar Web</span>
+              <h4 class="article-title mt-1">Belajar HTML dan CSS dari Dasar</h4>
+              <p class="article-meta text-muted mb-2">
+                <i class="bi bi-calendar3 me-1"></i> 19-8-2026
+              </p>
+              <p class="article-excerpt">
+                Ringkasan singkat tentang cara memulai belajar HTML dan CSS untuk pemula di bidang web development.
+              </p>
+              <a href="https://www.codepolitan.com" class="btn btn-sm btn-outline-primary mt-2">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <!-- Artikel 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card article-card h-100 border-0 shadow-sm overflow-hidden">
+            <img src="https://placehold.co/600x350/1D4ED8/FFFFFF?text=Bootstrap" alt="Thumbnail artikel Bootstrap" class="card-img-top">
+            <div class="card-body p-4">
+              <span class="article-category">Framework</span>
+              <h4 class="article-title mt-1">Mengenal Bootstrap untuk Website Responsif</h4>
+              <p class="article-meta text-muted mb-2">
+                <i class="bi bi-calendar3 me-1"></i> 20-09-2026
+              </p>
+              <p class="article-excerpt">
+                Pengenalan Bootstrap 5 dan cara menggunakannya untuk membuat layout website yang rapi dan responsif.
+              </p>
+              <a href="https://www.petanikode.com/" class="btn btn-sm btn-outline-primary mt-2">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <!-- Artikel 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card article-card h-100 border-0 shadow-sm overflow-hidden">
+            <img src="https://placehold.co/600x350/0F172A/FFFFFF?text=Database" alt="Thumbnail artikel Database" class="card-img-top">
+            <div class="card-body p-4">
+              <span class="article-category">Database</span>
+              <h4 class="article-title mt-1">Belajar Database MySQL untuk Pemula</h4>
+              <p class="article-meta text-muted mb-2">
+                <i class="bi bi-calendar3 me-1"></i> 25-9-2026
+              </p>
+              <p class="article-excerpt">
+                Dasar-dasar database relasional dan cara membuat tabel sederhana menggunakan MySQL.
+              </p>
+              <a href="https://studyinca.ac.id" class="btn btn-sm btn-outline-primary mt-2">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KONTAK ========== -->
+  <section id="kontak" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Kontak</h2>
+        <p class="section-subtitle">Silakan hubungi saya melalui form atau media sosial</p>
+      </div>
+      <div class="row g-4">
+        <!-- Info Kontak -->
+        <div class="col-lg-5">
+          <div class="contact-info">
+            <h3 class="contact-info-title mb-4">Informasi Kontak</h3>
+            <div class="contact-item mb-3">
+              <i class="bi bi-envelope-fill text-primary"></i>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:[Masukkan Email]" class="contact-value">ferdianarga7@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item mb-3">
+              <i class="bi bi-whatsapp text-primary"></i>
+              <div>
+                <span class="contact-label">WhatsApp</span>
+                <a href="https://wa.me/[NomorWhatsApp]" class="contact-value" target="_blank" rel="noopener">087794195378</a>
+              </div>
+            </div>
+            <div class="contact-item mb-3">
+              <i class="bi bi-geo-alt-fill text-primary"></i>
+              <div>
+                <span class="contact-label">Lokasi</span>
+                <span class="contact-value">Jl.Letjen S Parmamn No.104 Ponorgo, Jawa Timur</span>
+              </div>
+            </div>
+            <div class="social-links d-flex gap-3">
+              <a href="#" class="social-link" aria-label="Instagram" title="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="GitHub" title="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Form Kontak -->
+        <div class="col-lg-7">
+          <div class="card contact-form-card border-0 shadow-sm">
+            <div class="card-body p-4 p-md-5">
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                  <div class="invalid-feedback">Nama wajib diisi.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda" required>
+                  <div class="invalid-feedback">Email wajib diisi dan harus valid.</div>
+                </div>
+                <div class="mb-4">
+                  <label for="pesan" class="form-label">Pesan <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+                  <div class="invalid-feedback">Pesan wajib diisi.</div>
+                </div>
+                <button type="submit" class="btn btn-primary px-4">Kirim Pesan</button>
+                <div id="formAlert" class="alert mt-3 d-none" role="alert"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4 py-5">
+        <div class="col-md-4">
+          <div class="footer-brand mb-3">
+            <span class="brand-name ms-2">Ferdian Arga Saputra</span>
+          </div>
+          <p class="footer-desc">
+            Junior Web Developer yang fokus membangun website bersih, fungsional, dan mudah digunakan.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-heading">Navigasi</h5>
+          <ul class="footer-nav list-unstyled">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-heading">Media Sosial</h5>
+          <div class="footer-social d-flex gap-3">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center py-3">
+        <p class="mb-0">&copy; <span id="copyrightYear">2026</span> Ferdian Arga Saputra. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
